@@ -102,32 +102,38 @@ uint8_t mqtt_ds18b20_temp_pub_topic[64];
 
 uint32_t sensor_ds18b20_enable;
 uint32_t sensor_dht22_enable;
-uint32_t sensor_dht22_humi_thermostat;
+uint32_t thermostat1_input;
 
 uint32_t relay_latching_enable;
 uint32_t relay_1_state;
 uint32_t relay_2_state;
 uint32_t relay_3_state;
-uint8_t relay1name[16];
-uint8_t relay2name[16];
-uint8_t relay3name[16];
+uint8_t relay1name[24];
+uint8_t relay2name[24];
+uint8_t relay3name[24];
 	
 uint32_t thermostat1state;
 uint32_t thermostat1manualsetpoint;
 uint32_t thermostat1mode;
 uint32_t thermostat1opmode;
+uint32_t thermostat1hysteresishigh;
+uint32_t thermostat1hysteresislow;
 weekSchedule thermostat1schedule;
 
 uint32_t thermostat2state;
 uint32_t thermostat2manualsetpoint;
 uint32_t thermostat2mode;
 uint32_t thermostat2opmode;
+uint32_t thermostat2hysteresishigh;
+uint32_t thermostat2hysteresislow;
 weekSchedule thermostat2schedule;
 
 uint32_t thermostat3state;
 uint32_t thermostat3manualsetpoint;
 uint32_t thermostat3mode;
 uint32_t thermostat3opmode;
+uint32_t thermostat3hysteresishigh;
+uint32_t thermostat3hysteresislow;
 weekSchedule thermostat3schedule;
 
 	
